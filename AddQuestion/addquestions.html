@@ -1,0 +1,58 @@
+ <!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <a href=""
+
+</body>
+</html>-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+        <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+
+    <label>
+        Questions: <textarea name="questions" id="questions" ></textarea>
+    </label>
+    <br>
+    <label>
+        Options 1: <input type="text" name="option1" id="option1">
+    </label>
+
+    <select name="option1Corect" id="option1Corect">
+        <option value="true">Correct</option>
+        <option value="false">Incorrect</option>
+    </select>
+
+    <br>
+    <label>
+        Options 2: <input type="text" name="option2" id="option2">
+    </label>
+    <select name="option2Corect" id="option2Corect">
+        <option value="true">Correct</option>
+        <option value="false">Incorrect</option>
+    </select>
+    <br>
+    <label> Marks:&nbsp; &nbsp; &nbsp;  <input type="text" name="marks" id="marks"></label>
+    <br>
+    <button onClick='addQuestion("add")'>Add Another Question</button>
+    <button onClick='addQuestion("save")'>Save</button>
+
+    <script src="../js/addquestion.js"></script>
+</body>
+
+</html>

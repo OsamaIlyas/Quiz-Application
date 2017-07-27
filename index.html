@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+
+
+  <link rel="stylesheet" href="css/login.css">
+
+</head>
+
+<body>
+  <div class="navbar">
+    <ul>
+      <li>
+        <a href="Admin/admin.html">
+          <h3>AdminPanel</h3>
+        </a>
+      </li>
+
+    </ul>
+
+    <br>
+  </div>
+
+  
+  <br>
+  <h1>Sign Up & Login Form </h1>
+
+  <div class="login-page">
+    <div class="form">
+
+      <form class="login-form">
+        <input type="text" placeholder="Username" id="UserName" />
+        <input type="password" placeholder="Password" required="required" id="Password" />
+        <input class="button" type="button" value="Sign Up" onclick="signup();">
+        <input class="button" type="button" value="Login" onclick="login();">
+
+        <div id="authMessage"></div>
+
+
+
+        <!--<button>login</button>-->
+
+
+      </form>
+    </div>
+  </div>
+
+ <script src="js/index.js"></script>
+</body>
+
+</html>
+

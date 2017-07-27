@@ -1,0 +1,108 @@
+.login-page {
+  width: 460px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  
+                padding:25px 25px;
+                background:rgba(50, 50, 50, 0.2);
+				 border:0px solid #dbdbdb;
+                         margin:50px auto;
+                         height: 220px;
+                         width: 400px;
+                        
+
+}
+ body {
+      /*background: #44374D; */
+      background-image: url("../img/bg.jpg");
+      background-size: cover;
+      
+background-image:no repeat;
+position:relative;
+    
+    font-size: 18px;
+
+    }
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+input.button {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background:tan;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: black;
+  font-size: 14px;
+  cursor: pointer;
+}
+input.button:hover,input button:active,input button:focus {
+  background: #32323C;
+  color: white;
+}
+
+
+
+      h2{
+        text-align: center;
+       
+     font-family: Georgia, 'Times New Roman', Times, serif
+        
+      }
+      h1
+      {
+        text-align: center;
+        color: wheat;
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+
+
+      li {
+display: inline;
+margin-right: 8px;
+/*font-size: 20px;*/
+
+
+
+}
+a:hover
+{
+color: darkorange;
+}
+
+ul{
+    margin: 5px 5px 5px 740px;
+    width: 600px;
+}
+
+a{
+  text-decoration: underline;
+  color:#ffffff;
+
+  }
+  div.navbar
+{
+	color: white;
+	background-color:rgb(50, 50, 50);
+  opacity: 0.4;	
+  height: 100px;
+}
+h3{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 25px;
+}
+h4{
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
